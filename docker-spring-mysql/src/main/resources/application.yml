@@ -1,0 +1,12 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: validate
+        properties.hibernate.hbm2ddl.auto: update
+
+    datasource:
+        url: jdbc:mysql://mysql:3306/test
+        username: user
+        password: password
+        driver-class-name: com.mysql.jdbc.Driver
