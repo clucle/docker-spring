@@ -15,6 +15,6 @@ public class NaverController {
 
     @GetMapping
     public String home() {
-        return naverUtil.test();
+        return naverUtil.getImages("그린팩토리");
     }
 }
